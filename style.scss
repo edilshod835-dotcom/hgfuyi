@@ -1,0 +1,204 @@
+.head {
+    max-width: 1000px;
+}
+.nav {
+    max-width: 100px;
+    justify-content: space-between;
+    margin: auto;
+    .navt {
+        justify-content: space-between;
+        display: flex;
+
+        div {
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            color: rgba(255, 255, 255, 1);
+        }
+
+    }
+}
+
+.bgi {
+    background-image: url(./Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1510px;
+    height: 840px;
+
+    img {
+        position: relative;
+        top: 340px;
+        left: 728px;
+    }
+
+    h1 {
+        color: rgba(212, 193, 127, 1);
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 250px;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: 530px;
+        }
+    }
+}
+
+.pic {
+    max-width: 1200px;
+
+    .picd {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        left: 150px;
+
+        p {
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+.h {
+
+    h1 {
+        color: rgba(212, 193, 127, 1);
+        font-size: 31px;
+        position: relative;
+        left: 180px;
+    }
+}
+
+.kartinki {
+    max-width: 1200px;
+    align-items: center;
+    position: relative;
+    top: 80px;
+
+    .da {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        left: 150px;
+
+        p {
+            color: white;
+            font-size: 24px;
+
+        }
+    }
+}
+
+.bbgi {
+    background-image: url(./Rectangle\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1510px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+
+    .bbdiv {
+        position: relative;
+        top: 140px;
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            color: rgba(212, 193, 127, 1);
+        }
+
+        p {
+            color: white;
+        }
+
+        button {
+            background-color: rgba(255, 255, 255, 0.277);
+            border: none;
+            width: 255px;
+            height: 50px;
+        }
+
+    }
+
+    .btnd {
+        position: relative;
+        left: 10px;
+        justify-content: space-around;
+
+        .btn {
+            display: flex;
+            position: relative;
+            top: 10px;
+            justify-content: space-around;
+        }
+    }
+}
+
+.v {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.box {
+    div {
+        position: relative;
+        top: 300px;
+        left: 330px;
+        width: 850px;
+        height: 270px;
+        background-color: rgba(98, 98, 98, 1);
+    }
+}
+
+.op {
+    max-width: 1600px;
+    position: relative;
+    top: 300px;
+    
+    .op1 {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+
+        button {
+             width: 255px;
+            height: 50px;
+            border: none;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.24) 
+           
+        }
+        p {
+            color: white;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+.foot {
+    max-width: 1730px;
+    position: relative;
+    top: 350px;
+    background-color: rgba(45, 52, 60, 1);
+    display: flex;
+    justify-content: space-around;
+    p {
+        color: white;
+    }
+}
